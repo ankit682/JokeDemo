@@ -14,7 +14,7 @@ class JokeAdapter(private val jokes: ArrayList<Joke>) :
     class JokeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(joke: Joke) {
             itemView.joke_text_view.text = joke.joke
-//            itemView.url_text_view.text = joke.id.toString()
+            itemView.url_text_view.text = "https://icanhazdadjoke.com/j/"+joke.id.toString()
         }
     }
 

@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="card_radius">15sp</dimen>
+    <dimen name="margin">10sp</dimen>
+    <dimen name="joke_size">20sp</dimen>
+    <dimen name="source_size">15sp</dimen>
+</resources>
